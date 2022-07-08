@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap');
+* {
+ font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+ padding: 0;
+ margin: 0;
+}
+body {
+    background-color:white;
+    overflow-x: hidden;
+}
+.nav-list {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    background-color: transparent;
+}
+ul {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    font-weight: 500;
+    list-style: none;
+}
+li {
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+}
+.introduction {
+    background-size: cover;
+    background-image: url(img/background-images_1.jpg);
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.intro-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 30px;
+    color:black;
+}
+.visual-studio-code {
+    width: 600px;
+    height: 600px;
+    float: right;
+}
+.skills {
+    color:black;
+    font-size: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.skill_section {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    min-width: 100px;
+}
+.color_html {
+    background-color:rgb(255, 153, 0);
+    height: 30%;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+}
+.html {
+    width: 210px;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 9px 9px 27px #dbdbdb, -9px -9px 27px #eee;
+    text-align: center;
+    font-size: 20px;
+}
+.html h3 {
+    color:rgb(255, 153, 0);
+}
+.mark_html {
+    color:rgb(255, 153, 0);
+    font-weight: 600;
+}
+.color_CSS {
+    background-color:rgb(0, 145, 255);
+    height: 30%;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+}
+.CSS {
+    width: 210px;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 9px 9px 27px #dbdbdb, -9px -9px 27px #eee;
+    text-align: center;
+    font-size: 20px;
+}
+.CSS h3 {
+    color:rgb(0, 145, 255);
+}
+.mark_CSS {
+    color:rgb(0, 145, 255);
+    font-weight: 600;
+}
+.color_Javascript {
+    background-color:darkgreen;
+    height: 30%;
+    width: 100%;
+    top: 0px;
+    position: absolute;
+}
+.Javascript {
+    width: 210px;
+    height: 250px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 9px 9px 27px #dbdbdb, -9px -9px 27px #eee;
+    text-align: center;
+    font-size: 20px;
+}
+.Javascript h3 {
+    color: darkgreen;
+}
+.mark_Javascript {
+    color: darkgreen;
+    font-weight: 600;
+}
+.about_me {
+    color:white;
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color:rgb(255, 153, 0)
+}
+.future-career {
+    color:white;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(0, 145, 255)
+}
+.future_path {
+    padding-right: -20px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+.interests {
+    color:white;
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: darkgreen;
+}
+.my_hobby {
+    padding-right: 90px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
